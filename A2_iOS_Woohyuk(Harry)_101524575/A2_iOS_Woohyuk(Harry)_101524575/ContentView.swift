@@ -10,7 +10,24 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        Text("temp")
+        TabView {
+            ProductDetailView()
+                .tabItem {
+                    Label("Browse", systemImage: "list.bullet")
+                }
+            ProductListView()
+                .tabItem {
+                    Label("All Products", systemImage: "book")
+                }
+            SearchView()
+                .tabItem {
+                    Label("Search", systemImage: "magnifyingglass")
+                }
+            AddProductView()
+                .tabItem {
+                    Label("Add", systemImage: "plus")
+                }
+        }
     }
 }
 
