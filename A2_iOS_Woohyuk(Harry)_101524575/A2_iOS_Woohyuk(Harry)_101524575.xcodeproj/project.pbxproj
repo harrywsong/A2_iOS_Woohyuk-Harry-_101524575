@@ -14,6 +14,7 @@
 		60C8A88B2F87B04C009D5E28 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A88A2F87B04C009D5E28 /* Persistence.swift */; };
 		60C8A88E2F87B04C009D5E28 /* A2_iOS_Woohyuk_Harry__101524575.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A88C2F87B04C009D5E28 /* A2_iOS_Woohyuk_Harry__101524575.xcdatamodeld */; };
 		60C8A8972F87B33A009D5E28 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A8962F87B33A009D5E28 /* ProductDetailView.swift */; };
+		60C8A8992F87B64C009D5E28 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A8982F87B64C009D5E28 /* ProductListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		60C8A88A2F87B04C009D5E28 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		60C8A88D2F87B04C009D5E28 /* A2_iOS_Woohyuk_Harry__101524575.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_iOS_Woohyuk_Harry__101524575.xcdatamodel; sourceTree = "<group>"; };
 		60C8A8962F87B33A009D5E28 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		60C8A8982F87B64C009D5E28 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				60C8A88C2F87B04C009D5E28 /* A2_iOS_Woohyuk_Harry__101524575.xcdatamodeld */,
 				60C8A8872F87B04C009D5E28 /* Preview Content */,
 				60C8A8962F87B33A009D5E28 /* ProductDetailView.swift */,
+				60C8A8982F87B64C009D5E28 /* ProductListView.swift */,
 			);
 			path = "A2_iOS_Woohyuk(Harry)_101524575";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C8A8992F87B64C009D5E28 /* ProductListView.swift in Sources */,
 				60C8A88B2F87B04C009D5E28 /* Persistence.swift in Sources */,
 				60C8A8972F87B33A009D5E28 /* ProductDetailView.swift in Sources */,
 				60C8A8842F87B049009D5E28 /* ContentView.swift in Sources */,
