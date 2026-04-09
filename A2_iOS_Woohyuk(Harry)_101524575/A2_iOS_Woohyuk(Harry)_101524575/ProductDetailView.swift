@@ -36,7 +36,7 @@ struct ProductDetailView: View {
                     Text(String(format: "Price: $%.2f", product.price))
                     Text("Provider: \(product.provider ?? "")")
                     Text("ID: \(String(product.id?.uuidString.prefix(8) ?? ""))")
-
+                        .font(.caption)
                     Spacer()
 
                     HStack {
