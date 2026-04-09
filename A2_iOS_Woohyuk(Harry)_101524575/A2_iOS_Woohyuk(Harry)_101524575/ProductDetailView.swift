@@ -30,6 +30,7 @@ struct ProductDetailView: View {
 
                 VStack(spacing: 16) {
                     Text(product.name ?? "")
+                        .bold()
                     Text(product.productDescription ?? "")
                     Text(String(format: "Price: $%.2f", product.price))
                     Text("Provider: \(product.provider ?? "")")
