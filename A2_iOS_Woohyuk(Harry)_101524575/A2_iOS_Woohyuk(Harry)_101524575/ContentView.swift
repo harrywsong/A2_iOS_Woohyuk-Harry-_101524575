@@ -25,7 +25,7 @@ struct ContentView: View {
                 }
             AddProductView()
                 .tabItem {
-                    Label("Add", systemImage: "plus")
+                    Label("Add Product", systemImage: "plus")
                 }
         }
     }

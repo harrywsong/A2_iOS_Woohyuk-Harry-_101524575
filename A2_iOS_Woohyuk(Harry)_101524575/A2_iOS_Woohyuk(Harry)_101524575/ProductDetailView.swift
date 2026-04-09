@@ -28,7 +28,7 @@ struct ProductDetailView: View {
             } else {
                 let product = products[currentIndex]
 
-                VStack(spacing: 16) {
+                VStack(alignment: .leading, spacing: 16) {
                     Text(product.name ?? "")
                         .bold()
                     Text(product.productDescription ?? "")
