@@ -30,7 +30,9 @@ struct SearchView: View {
             List(filtered, id: \.id) { product in
                 VStack(alignment: .leading, spacing: 4) {
                     Text(product.name ?? "")
+                        .font(.headline)
                     Text(product.productDescription ?? "")
+                        .font(.subheadline)
                 }
                 .padding(4)
             }
