@@ -25,7 +25,7 @@ struct ProductListView: View {
                 }
                 .padding(4)
             }
-            .navigationTitle("All Products")
+            .navigationTitle("All Products (\(products.count))")
         }
     }
 }
