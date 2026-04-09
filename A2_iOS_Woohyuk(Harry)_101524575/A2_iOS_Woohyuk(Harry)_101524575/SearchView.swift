@@ -33,6 +33,7 @@ struct SearchView: View {
                         .font(.headline)
                     Text(product.productDescription ?? "")
                         .font(.subheadline)
+                        .lineLimit(3)
                 }
                 .padding(4)
             }

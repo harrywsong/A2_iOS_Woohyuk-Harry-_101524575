@@ -21,7 +21,7 @@ struct ProductListView: View {
                         .font(.headline)
                     Text(product.productDescription ?? "")
                         .font(.subheadline)
-                        .lineLimit(2)
+                        .lineLimit(3)
                 }
                 .padding(4)
             }
