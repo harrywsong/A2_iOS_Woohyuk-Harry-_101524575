@@ -16,7 +16,7 @@ struct ProductListView: View {
         NavigationStack {
             // loop through each product one by one and display the name and description of the products
             List(products, id: \.id) { product in
-                VStack(spacing: 4) {
+                VStack(alignment: .leading, spacing: 4) {
                     Text(product.name ?? "")
                     Text(product.productDescription ?? "")
                 }
