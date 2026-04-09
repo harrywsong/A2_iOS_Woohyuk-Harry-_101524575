@@ -28,7 +28,7 @@ struct SearchView: View {
     var body: some View {
         NavigationStack {
             List(filtered, id: \.id) { product in
-                VStack(spacing: 4) {
+                VStack(alignment: .leading, spacing: 4) {
                     Text(product.name ?? "")
                     Text(product.productDescription ?? "")
                 }
