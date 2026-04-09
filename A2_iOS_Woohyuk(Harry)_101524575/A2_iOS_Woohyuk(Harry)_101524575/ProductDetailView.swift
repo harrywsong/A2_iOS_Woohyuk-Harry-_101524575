@@ -32,6 +32,7 @@ struct ProductDetailView: View {
                     Text(product.name ?? "")
                         .bold()
                     Text(product.productDescription ?? "")
+                    Divider()
                     Text(String(format: "Price: $%.2f", product.price))
                     Text("Provider: \(product.provider ?? "")")
                     Text("ID: \(String(product.id?.uuidString.prefix(8) ?? ""))")
