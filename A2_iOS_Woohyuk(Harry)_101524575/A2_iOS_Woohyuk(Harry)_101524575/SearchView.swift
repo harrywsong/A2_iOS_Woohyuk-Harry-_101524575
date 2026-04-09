@@ -34,6 +34,8 @@ struct SearchView: View {
                     Text(product.productDescription ?? "")
                         .font(.subheadline)
                         .lineLimit(3)
+                    Text(String(format: "$%.2f — %@", product.price, product.provider ?? ""))
+                        .font(.caption)
                 }
                 .padding(4)
             }
