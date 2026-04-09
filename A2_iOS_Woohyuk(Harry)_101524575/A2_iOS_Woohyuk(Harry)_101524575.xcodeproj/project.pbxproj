@@ -16,6 +16,7 @@
 		60C8A8972F87B33A009D5E28 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A8962F87B33A009D5E28 /* ProductDetailView.swift */; };
 		60C8A8992F87B64C009D5E28 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A8982F87B64C009D5E28 /* ProductListView.swift */; };
 		60C8A89B2F87B70F009D5E28 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A89A2F87B70F009D5E28 /* SearchView.swift */; };
+		60C8A89D2F87B7F3009D5E28 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8A89C2F87B7F3009D5E28 /* AddProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		60C8A8962F87B33A009D5E28 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		60C8A8982F87B64C009D5E28 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		60C8A89A2F87B70F009D5E28 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		60C8A89C2F87B7F3009D5E28 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				60C8A8962F87B33A009D5E28 /* ProductDetailView.swift */,
 				60C8A8982F87B64C009D5E28 /* ProductListView.swift */,
 				60C8A89A2F87B70F009D5E28 /* SearchView.swift */,
+				60C8A89C2F87B7F3009D5E28 /* AddProductView.swift */,
 			);
 			path = "A2_iOS_Woohyuk(Harry)_101524575";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				60C8A88B2F87B04C009D5E28 /* Persistence.swift in Sources */,
 				60C8A8972F87B33A009D5E28 /* ProductDetailView.swift in Sources */,
 				60C8A89B2F87B70F009D5E28 /* SearchView.swift in Sources */,
+				60C8A89D2F87B7F3009D5E28 /* AddProductView.swift in Sources */,
 				60C8A8842F87B049009D5E28 /* ContentView.swift in Sources */,
 				60C8A8822F87B049009D5E28 /* A2_iOS_Woohyuk_Harry__101524575App.swift in Sources */,
 				60C8A88E2F87B04C009D5E28 /* A2_iOS_Woohyuk_Harry__101524575.xcdatamodeld in Sources */,
