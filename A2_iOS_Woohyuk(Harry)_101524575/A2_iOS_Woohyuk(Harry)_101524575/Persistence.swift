@@ -52,5 +52,40 @@ struct PersistenceController {
             }
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
+        
+        // seed 10 products on first launch
+        seedDataIfNeeded()
+    }
+
+    // function that seeds the following data into Core Data
+    private func seedDataIfNeeded() {
+        let key = "hasSeededProducts"
+        guard !UserDefaults.standard.bool(forKey: key) else { return }
+
+        let ctx = container.viewContext
+        let products: [(String, String, Double, String)] = [
+            ("Test Item 1", "Test Description 1", 1.00, "Test Provider 1"),
+            ("Test Item 2", "Test Description 2", 2.00, "Test Provider 2"),
+            ("Test Item 3", "Test Description 3", 3.00, "Test Provider 3"),
+            ("Test Item 4", "Test Description 4", 4.00, "Test Provider 4"),
+            ("Test Item 5", "Test Description 5", 5.00, "Test Provider 5"),
+            ("Test Item 6", "Test Description 6", 6.00, "Test Provider 6"),
+            ("Test Item 7", "Test Description 7", 7.00, "Test Provider 7"),
+            ("Test Item 8", "Test Description 8", 8.00, "Test Provider 8"),
+            ("Test Item 9", "Test Description 9", 9.00, "Test Provider 9"),
+            ("Test Item 10", "Test Description 10", 10.00, "Test Provider 10")
+        ]
+
+        for (name, desc, price, provider) in products {
+            let product = Product(context: ctx)
+            product.id = UUID()
+            product.name = name
+            product.productDescription = desc
+            product.price = price
+            product.provider = provider
+        }
+
+        try? ctx.save()
+        UserDefaults.standard.set(true, forKey: key)
     }
 }
